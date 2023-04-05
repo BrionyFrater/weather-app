@@ -7,7 +7,7 @@ def getWeather(event):
 
     global weatherIcon
     
-    #knowingly exposed 
+    #knowingly exposed, free subscription only for this project 
     apiKey = "a488b4cf3ec42e1e0ea576120413ea4f"
     place = placeEntry.get()
 
