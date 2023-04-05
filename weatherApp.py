@@ -6,7 +6,8 @@ from tkinter import *
 def getWeather(event):
 
     global weatherIcon
-
+    
+    #knowingly exposed 
     apiKey = "a488b4cf3ec42e1e0ea576120413ea4f"
     place = placeEntry.get()
 
